@@ -68,10 +68,16 @@ In the `src/App.js` file, replace the placeholder `YOUR_DEPLOYED_CONTRACT_ADDRES
 const tokenAddress = "YOUR_DEPLOYED_CONTRACT_ADDRESS"; // Replace with your deployed contract address
 ```
 
-#### c. Update abi.json with new abi of deployed contract
+#### c. Install Dependencies
+Install the necessary dependencies:
 
+#### d. Update abi.json with new abi of deployed contract
 
-#### d. Start the React Development Server
+```bash
+npm install
+```
+
+#### e. Start the React Development Server
 Run the React app on your local development server:
 
 ```bash
