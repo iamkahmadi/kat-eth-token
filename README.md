@@ -20,8 +20,8 @@ A simple ERC20 token called **KAT** deployed on a local Hardhat network, with a 
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/kat-token-dapp.git
-cd kat-token-dapp
+git clone https://github.com/iamkahmadi/kat-eth-token.git
+cd kat-eth-token
 ```
 
 ### 2. Set Up the Backend (Hardhat)
