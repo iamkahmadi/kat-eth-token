@@ -1,0 +1,48 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+.p
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+kat-dapp//node_modules
+kat-dapp//.pnp
+kat-dapp/.pnp.js
+
+# testing
+kat-dapp//coverage
+
+# production
+kat-dapp//build
+
+# misc
+kat-dapp/.DS_Store
+kat-dapp/.env.local
+kat-dapp/.env.development.local
+kat-dapp/.env.test.local
+kat-dapp/.env.production.local
+
+kat-dapp/npm-debug.log*
+kat-dapp/yarn-debug.log*
+kat-dapp/yarn-error.log*
+
+
+
+

@@ -1,0 +1,18 @@
+mkdir kat-token
+cd kat-token
+npm init -y
+
+npm install --save-dev hardhat
+npm install @openzeppelin/contracts
+npm install --save ethers
+npx hardhat
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+
+for frontend app
+npx create-react-app kat-dapp
+cd kat-dapp
+npm install ethers
+npm install react-toastify react-spinners
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
